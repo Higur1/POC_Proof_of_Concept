@@ -1,0 +1,5 @@
+Exercise:
+    Create a method that calculates the total size in bytes of all the files withing a directory.
+    The directory containing he files must be provided as a parameter.
+    If the given directory contains other subdirectories, your algorithm should also be prepared to go
+    into those subdirectories in order to sum the size of all files.

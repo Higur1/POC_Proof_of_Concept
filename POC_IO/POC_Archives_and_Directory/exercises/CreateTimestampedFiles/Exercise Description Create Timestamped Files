@@ -1,0 +1,3 @@
+Exercise:
+    Implement an algorithm that, every time it is executed, creates a new file in a specified directory.
+    The name must have prefix "file_", followed by the current system date/tim, and extension ".txt".
