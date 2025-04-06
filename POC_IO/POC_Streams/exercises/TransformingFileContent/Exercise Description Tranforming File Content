@@ -1,0 +1,5 @@
+Exercise:
+    Create a program that reads the entire content of a file named data.in.
+        Assume this file already exists, contains data, and is a text file.
+    The content read must be written to a file named data.out.
+    While transferring the data, every time a "." is found, a line break should be added in the text.

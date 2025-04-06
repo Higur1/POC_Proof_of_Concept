@@ -1,0 +1,6 @@
+Hello there
+ This is a simple text file used for testing
+ Each sentence should end with a period
+ When reading this file, your program should insert a line break after each period
+ Have fun coding
+
