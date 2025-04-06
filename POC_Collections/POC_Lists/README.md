@@ -1,4 +1,4 @@
-# 📚 POC_Lists
+# 📚POC_Lists
 
 Este diretório contém exemplos práticos de uso das interfaces `List`, `ArrayList` e `LinkedList` em Java. Cada classe demonstra um conceito específico do uso de listas.
 
