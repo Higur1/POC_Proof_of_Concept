@@ -4,8 +4,8 @@ Este módulo faz parte do repositório [`POC_Proof_of_Concept`](https://github.c
 
 ## Estrutura
 
-- `Concepts`: Contém exemplos conceituais sobre o funcionamento da API de data e hora do Java, como manipulação de datas, horários, fusos horários e períodos.
-- `Practice`: Inclui aplicações práticas que simulam cenários do mundo real usando a API de data/hora, reforçando os conceitos aprendidos.
+- `POC_Concepts`: Contém exemplos conceituais sobre o funcionamento da API de data e hora do Java, como manipulação de datas, horários, fusos horários e períodos.
+- `POC_Practice_DateTime`: Inclui aplicações práticas que simulam cenários do mundo real usando a API de data/hora, reforçando os conceitos aprendidos.
 
 ## Objetivo
 
