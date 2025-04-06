@@ -37,5 +37,23 @@ Demonstra o uso da interface `Comparator` para ordenação personalizada de list
 - **RelationsBetweenLists.java**  
   Demonstra operações entre listas mutáveis em Java como `addAll`, `retainAll` e `removeAll`, mostrando como combinar, filtrar e remover elementos comuns entre coleções.
 
+# Exercicios
+
+## Exercício: Gerar Números Aleatórios e Ordená-los
+### Enunciado 
+Crie um método que gere X números aleatórios e retorne uma lista com esses números ordenados em ordem crescente.
+- Os números aleatórios devem ser inteiros e variar entre 0 e 100.
+- O valor de X deve ser fornecido como parâmetro.
+  
+## Exercício: Remova os funcionários inativos.
+
+### Enunciado 
+Crie uma classe **Employee** para representar um funcionário.
+- Os atributos da classe são:
+  - `name`: nome do funcionário.
+  - `status`: status do funcionário (que deve ser um **enum** com os valores `ACTIVE` e `INACTIVE`).
+
+Crie um método **removeInactive()**, que recebe uma lista de funcionários como parâmetro e retorna uma nova lista contendo apenas os funcionários com o status **ACTIVE**.
+
 ## Objetivo  
 Reforçar a compreensão dos conceitos fundamentais de listas (`List`) em Java, incluindo criação, ordenação, imutabilidade, conversões, iteração e operações entre listas, por meio de exemplos práticos e didáticos.
