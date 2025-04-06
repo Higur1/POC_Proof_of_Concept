@@ -1,4 +1,4 @@
-# 📚 POC_Sets
+# 📚POC_Sets
 
 Este diretório contém exemplos práticos de uso da interface `Set` e suas principais implementações (`HashSet`, `LinkedHashSet`, `TreeSet`) em Java. Cada classe demonstra um conceito específico relacionado ao uso de conjuntos, como ordenação, unicidade de elementos, operações matemáticas entre conjuntos e comportamento de ordenação natural ou definida por `Comparator`.
 
