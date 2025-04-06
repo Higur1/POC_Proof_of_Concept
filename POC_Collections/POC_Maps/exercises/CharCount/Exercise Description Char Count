@@ -1,0 +1,7 @@
+Exercise:
+ - Create a method that counts the characters of a String and groups the count by character.
+ - Example:
+    Parameter: "Glass"
+    Return(Map): {G = 1, L = 1, A = 1, S = 2}
+    The returned Map must have the characters sorted in alphabetical order
+    Tip´: Use the toCharArray() method from the String class to access the characters.

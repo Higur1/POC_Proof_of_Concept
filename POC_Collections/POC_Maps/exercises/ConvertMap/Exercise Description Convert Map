@@ -1,0 +1,4 @@
+Exercise:
+ Create a list of objects of type Person, which represent a person.
+ Each person has an id and a name
+ Implement code that transform this list into a Map, which an id to a name.
