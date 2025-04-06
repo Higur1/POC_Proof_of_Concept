@@ -1,0 +1,4 @@
+Exercise:
+    Create a method that generates X random numbers and returns a list with these numbers sorted in ascending order.
+        The random numbers must be integers and range between 0 and 100.
+        The value of X must be provided as a parameter.

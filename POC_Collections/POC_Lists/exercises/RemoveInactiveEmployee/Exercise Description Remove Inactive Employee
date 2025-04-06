@@ -1,0 +1,6 @@
+Exercise:
+    Create a class Employee to represent an employee.
+        The attributes are name and status.
+        The status should be an enum with values ACTIVE and INACTIVE.
+       Create a method removeInactive(), which takes a list of employee as a parameter and returns a
+       new list containing only employees with the ACTIVE status
