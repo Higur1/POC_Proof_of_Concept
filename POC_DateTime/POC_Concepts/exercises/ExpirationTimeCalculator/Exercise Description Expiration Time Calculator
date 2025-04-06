@@ -1,0 +1,4 @@
+Exercise:
+    You have been assigned the task of implementing a method that calculates when a given piece of information will expire.
+    This method should receive a number of hours and return the expiration date/time based on the current date/time.
+    The returned information should be the number of seconds since the epoch.
