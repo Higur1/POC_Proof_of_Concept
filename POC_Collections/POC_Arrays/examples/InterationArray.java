@@ -8,7 +8,7 @@ public class InterationArray {
 
         //Enhanced for
         for(int n: numbers){
-            System.out.format("=> %s\n", numbers[n]);
+            System.out.format("=> %s\n", n);
         }
     }
 }
