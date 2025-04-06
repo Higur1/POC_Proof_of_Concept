@@ -48,6 +48,20 @@ Esta pasta contém exemplos de manipulação de arquivos e diretórios utilizand
   Utiliza os métodos `createTempDirectory` e `createTempFile` para gerar estruturas temporárias, tanto no diretório padrão do sistema quanto em um local específico.  
   Os exemplos mostram os caminhos gerados e como diferenciá-los com base no diretório raiz informado (padrão ou atual).
 
+# Exercicios
+## Exercício: Calculando tamanho de diretórios
+
+### Enunciado 
+Crie um método que calcule o tamanho total em bytes de todos os arquivos dentro de um diretório.  
+O diretório contendo os arquivos deve ser fornecido como parâmetro.  
+Se o diretório fornecido contiver outros subdiretórios, o seu algoritmo também deve ser preparado para acessar esses subdiretórios e somar o tamanho de todos os arquivos.
+
+## Exercício: Criando arquivos 
+
+### Enunciado
+Implemente um algoritmo que, toda vez que for executado, crie um novo arquivo em um diretório especificado.  
+O nome do arquivo deve ter o prefixo `file_`, seguido pela data/hora atual do sistema e a extensão `.txt`.
+
 ## Objetivo
 
 Demonstrar o uso prático das principais funcionalidades da API de arquivos do Java, promovendo a compreensão do gerenciamento de arquivos e diretórios em aplicações Java.
