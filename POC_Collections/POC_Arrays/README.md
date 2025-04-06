@@ -38,13 +38,13 @@ Esta pasta contém exemplos de manipulação de arrays em Java, demonstrando com
   Demonstra duas formas de iterar sobre arrays: com um loop `for` tradicional usando índices e com o `enhanced for` (for-each).
   
 # Exercicios
-## Exercício: Algoritmo Bubble Sort
+## Exercício: Implemente o algoritmo Bubble Sort
 
 ### Enunciado 
 Implemente o algoritmo Bubble Sort para ordenar os elementos de um array.
 De forma geral, o Bubble Sort compara cada elemento com o seu vizinho à direita, trocando-os se o vizinho for menor.
 
-## Exercício: Price Analysis
+## Exercício: Análise de preço
 ### Enunciado 
 Crie uma classe `Item` com os atributos `nome` e `preço`.
 Crie um método que recebe um array de `Item` e retorna um novo array com três informações:
