@@ -1,0 +1,6 @@
+Exercise:
+    Create a class Item with the attributes name and price.
+    Create a method that receives an array of Item and returns a new array with three pieces of information:
+        The Item with the lowest price
+        The Item with the highest price
+        The average price of the items in the array

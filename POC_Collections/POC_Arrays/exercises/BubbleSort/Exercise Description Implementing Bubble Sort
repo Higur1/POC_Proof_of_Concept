@@ -1,0 +1,3 @@
+Implement the Bubble Sort algorithm to sort the elements of an array.
+    In general terms, Bubble Sort compares each elements with its right neighbor, swapping them if
+    the neighbor is smaller.

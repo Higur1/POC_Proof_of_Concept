@@ -1,0 +1,3 @@
+Exercise:
+    Create a method that receives an array of integers as a parameter and squares each of its elements,
+    replacing them within the original array.
