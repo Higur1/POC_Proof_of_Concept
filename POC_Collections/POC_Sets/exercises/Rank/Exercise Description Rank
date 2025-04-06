@@ -1,0 +1,7 @@
+Exercise:
+    Create a class Rank to represent the ranking of a group of players(Players).
+    Each Player consists of a name and a score.
+    The Rank class must have two methods:
+        addPlayer(Player, int): Adds a player to the ranking with a specific score.
+        printRanking(): Prints the ranking of players, showing each player's name and score
+    Internally, the Rank class must sort the players in descending order of score

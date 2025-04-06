@@ -1,0 +1,3 @@
+Exercise:
+    You have a shopping list with various items, but you have a problem: many items are duplicated.
+    Create a method that receives a list of items and removes all duplicates(the changes must be made directly in the list)
