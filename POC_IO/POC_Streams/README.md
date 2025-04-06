@@ -71,6 +71,22 @@ Esta pasta contém exemplos de uso das streams de entrada e saída (`InputStream
   A segunda abordagem, que utiliza `FileWriter` dentro do bloco `try`, evita a necessidade de chamadas explícitas de `close()`, garantindo o fechamento do arquivo automaticamente ao final do bloco `try`, mesmo em caso de exceções.  
   A classe também captura e imprime exceções `IOException` caso ocorram durante o processo de escrita.
 
+# Exercicios
+## Exercício: Entrada de dados pelo console salvando em arquivo.
+
+### Enunciado 
+Implemente um algoritmo que, toda vez que for executado, crie um novo arquivo em um diretório especificado.  
+O nome do arquivo deve ter o prefixo `file_`, seguido pela data/hora atual do sistema e a extensão `.txt`.
+
+## Exercício: Transformando conteúdo de arquivo.
+
+### Enunciado
+Crie um programa que leia todo o conteúdo de um arquivo chamado `data.in`.  
+Assuma que esse arquivo já existe, contém dados e é um arquivo de texto.
+
+O conteúdo lido deve ser escrito em um arquivo chamado `data.out`.  
+Durante a transferência dos dados, toda vez que um ponto (".") for encontrado, deve ser adicionada uma quebra de linha no texto.
+
 ## Objetivo
 
 Apresentar os conceitos fundamentais de streams em Java, focando na leitura e escrita de dados binários e no uso eficiente de buffers para operações de I/O.
