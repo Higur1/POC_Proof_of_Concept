@@ -1,4 +1,4 @@
-# POC_Streams
+# 📚POC_Streams
 
 Esta pasta contém exemplos de uso das streams de entrada e saída (`InputStream` e `OutputStream`) da linguagem Java, incluindo operações com arquivos binários e manipulação de buffers.
 
