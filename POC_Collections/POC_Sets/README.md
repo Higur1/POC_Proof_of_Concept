@@ -1,4 +1,4 @@
-# 📚 POC_Sets
+# 📚POC_Sets
 
 Este diretório contém exemplos práticos de uso da interface `Set` e suas principais implementações (`HashSet`, `LinkedHashSet`, `TreeSet`) em Java. Cada classe demonstra um conceito específico relacionado ao uso de conjuntos, como ordenação, unicidade de elementos, operações matemáticas entre conjuntos e comportamento de ordenação natural ou definida por `Comparator`.
 
@@ -34,4 +34,21 @@ Demonstra o uso da coleção `TreeSet` com objetos personalizados, ordenando os 
   utilizando um `Comparator` externo (`AccountComparator`) ou com `Comparator.comparing()` inline, ambos priorizando o saldo ao invés do número da conta.
 > 💡 Observação: Ao usar `TreeSet`, é necessário que os elementos sejam comparáveis. Isso pode ser feito implementando `Comparable` na classe ou fornecendo um `Comparator` externo. Caso contrário, uma `ClassCastException` será lançada.
 
+# Exercicios
+## Exercício: Dados Duplicados
 
+### Enunciado 
+Você possui uma lista de compras com vários itens, mas há um problema: muitos itens estão duplicados.  
+Crie um método que recebe uma lista de itens e remove todos os duplicados (as alterações devem ser feitas diretamente na lista).
+
+## Exercício: Rank
+
+### Enunciado 
+Crie uma classe **Rank** para representar o ranking de um grupo de jogadores (**Players**).
+Cada jogador possui um nome e uma pontuação.
+
+A classe **Rank** deve ter dois métodos:
+- `addPlayer(Player, int)`: Adiciona um jogador ao ranking com uma pontuação específica.
+- `printRanking()`: Imprime o ranking dos jogadores, mostrando o nome e a pontuação de cada jogador.
+
+Internamente, a classe **Rank** deve classificar os jogadores em ordem decrescente de pontuação.

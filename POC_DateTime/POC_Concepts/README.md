@@ -1,4 +1,4 @@
-# POC_Concepts
+# 📚POC_Concepts
 
 Esta pasta contém exemplos de uso da API de data e hora em Java, demonstrando como criar, manipular, formatar e calcular informações temporais com as classes do pacote `java.time`.
 
@@ -52,6 +52,19 @@ Esta pasta contém exemplos de uso da API de data e hora em Java, demonstrando c
 - **ZonedDateTimeApp.java**  
   Demonstra como associar um `LocalDateTime` a um fuso horário utilizando `ZonedDateTime` com `ZoneId.systemDefault()`.  
   Mostra a conversão entre zonas utilizando `withZoneSameInstant()` e como representar corretamente a data e hora em diferentes regiões geográficas.
+
+# Exercicios
+## Exercício: Calculadora de anos.
+
+### Enunciado 
+Crie um programa que, dado uma data de nascimento, exiba na tela o tempo que se passou desde essa data em termos de anos, meses e dias.
+
+## Exercício: Calculadora de tempo de expiração.
+
+### Enunciado
+Você foi designado para implementar um método que calcula quando uma determinada informação irá expirar.  
+Esse método deve receber um número de horas e retornar a data/hora de expiração com base na data/hora atual.  
+A informação retornada deve ser o número de segundos desde a época (epoch).
 
 ## Objetivo
 
