@@ -1,0 +1,6 @@
+Exercise:
+    Create the class Hero that represents the hero of a game.
+        The hero has an associated amount of ammunition.
+    Also create a class Weapon, which represents a weapon that can be used by the hero.
+        Weapon has a method shoot() that is invoked to shoot.
+        With each shot, the hero's ammunition should be decrement.

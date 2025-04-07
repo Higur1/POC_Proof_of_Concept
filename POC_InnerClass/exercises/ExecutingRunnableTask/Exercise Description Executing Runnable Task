@@ -1,0 +1,3 @@
+Exercise:
+    Create a method doIt() that receives an instance of the Runnable interface and calls its run() method.
+    Call the doIt() method in various scenarios, observing behavior of the execution.

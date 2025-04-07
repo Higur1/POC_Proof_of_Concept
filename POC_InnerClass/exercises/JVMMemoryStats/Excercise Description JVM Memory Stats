@@ -1,0 +1,4 @@
+Exercise:
+    Create a class Memory with a method stats().
+        This method should return an object of type Stats, which contains information about the JVM memory(free memory, used memory, and total memory)
+    Stats should be a nested class within Memory.
