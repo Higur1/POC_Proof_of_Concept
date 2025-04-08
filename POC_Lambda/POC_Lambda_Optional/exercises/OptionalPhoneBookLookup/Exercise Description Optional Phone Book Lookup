@@ -1,0 +1,4 @@
+Exercise:
+    Create a class PhoneBook to represent a phonebook, which maps a person's name to their phone number.
+    Create the method findByName(), which returns the phone number associated with the name as an Optional.
+    When the findByName() method is called, print the phone number on the screen(if it exists), or throw an IllegalArgument Exception(if it does not exists).
