@@ -1,0 +1,6 @@
+Exercise:
+    Create a method repeat() that executes a given block of code n times.
+    The parameters for this method are:
+        n: the number of times to execute.
+        code: the code t be executed, expressed as a lambda expression.
+    The code to be executed in each loop iteration must have access to the current execution index(stating from 0 up to n - 1).

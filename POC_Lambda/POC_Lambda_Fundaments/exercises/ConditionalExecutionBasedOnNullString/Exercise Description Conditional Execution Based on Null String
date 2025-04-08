@@ -1,0 +1,7 @@
+Exercise:
+    Create a method run() that takes 3 parameters:
+        s: a String
+        codeIfNull: a lambda
+        codeIfNotNull: a lambda
+    The run() method checks if the String s is null. If it is null, the code defined by codeIfNull is executed; if it is not null, the code defined by codeIfNotNull is executed.
+    The lambda expression for codeIfNotNull must have access to the String object so it can be used if necessary.

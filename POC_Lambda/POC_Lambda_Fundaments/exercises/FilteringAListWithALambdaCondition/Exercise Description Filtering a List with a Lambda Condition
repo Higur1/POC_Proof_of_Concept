@@ -1,0 +1,7 @@
+Exercise:
+    Create a method filter() that takes the following parameters:
+        list: a list of integers
+        condition: a condition expressed as a lambda expression
+    When called, the filter() method should iterate over all elements in the collection and test the condition on each element.
+    If the condition is true, the elements should remain in the collection; if false, the elements should be removed.
+    The filter() method should return a new list with the filtered elements.
