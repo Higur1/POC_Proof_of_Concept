@@ -1,0 +1,4 @@
+Exercise:
+    Create a Map that maps a String to its length (String -> Integer)
+    Implement a method that takes a String as a parameter and looks up in the Map the value associated with the String.
+    If the String does no exist as a key, a new entry must be inserted into the Map before returning the value.
