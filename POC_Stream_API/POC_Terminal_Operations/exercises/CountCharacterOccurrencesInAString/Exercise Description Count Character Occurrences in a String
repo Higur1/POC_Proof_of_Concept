@@ -1,0 +1,8 @@
+Exercise:
+    Implements the following method, which should return the number of times each character appears in the string str:
+        Map<Character, Long> count(String str)
+    Important Considerations:
+        he method must properly handle the null parameter
+        No distinction should be made between uppercase and lowercase letters
+        White spaces should not be counted
+        Use only the Stream API to solve the exercise

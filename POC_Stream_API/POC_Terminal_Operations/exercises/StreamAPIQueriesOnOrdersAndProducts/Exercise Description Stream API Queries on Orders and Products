@@ -1,0 +1,14 @@
+Exercise:
+    Consider the following records:
+        Product(String name, Category category, double price)
+        Order(Long d, Customer customer, List<Product> product, LocalDate orderDate)
+        public record Customer(String name)
+    And the following enum Category:
+        TOY, ELECTRONIC, STATIONARY
+    Write a set of code snippets using the Stream API to return data in the following way:
+        A) Orders made by each customer
+        B) Total cost of each order
+        C) Names of customers who bought toys
+        D) Order IDs with total price above 500, sorted by date
+        E) Total amount paid by each customer across all their orders
+    Create a set of Product and Order objets to test the queries above.
