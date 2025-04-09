@@ -1,0 +1,6 @@
+Exercise:
+    Consider the following record, which represents a student and their list of grades:
+        record Student(String name, List<Double> grades)
+    Implements code that returns (and prints to the screen) the student's name along with PASS or FAIL, indicating
+    whether the student passed the year or not, respectively.
+    Passing he years means having an average grade of 7.0 or higher from the exams taken.

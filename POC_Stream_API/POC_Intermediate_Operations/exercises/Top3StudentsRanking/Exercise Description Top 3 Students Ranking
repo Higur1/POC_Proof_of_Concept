@@ -1,0 +1,6 @@
+Exercise:
+    Consider the following record, which represents a student and their list of grades:
+        record Student(String name, List<Double> grades)
+    Implement code that returns (and prints to the screen) the ranking of the top 3 students with the highest averages among all exems taken.
+    The ranking is defined by the following record:
+        record Rank(String name, double average)
