@@ -1,0 +1,3 @@
+Exercise:
+    Implements a method name closeAll() that receives a list of objects and closes all of them.
+        These objects must be a instances of a class that implements Java's Closeable interface.

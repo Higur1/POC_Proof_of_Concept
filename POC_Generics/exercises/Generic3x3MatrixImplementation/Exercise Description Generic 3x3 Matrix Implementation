@@ -1,0 +1,6 @@
+Exercise:
+    Implements the Matrix class that represent a 3x3 matrix.
+    The data type of the matrix elements must be parameterized using generics.
+    Implement methods to interact with the matrix:
+        print(): Print the matrix elements to the screen
+        set(): Sets the value at a specific row and column in the matrix.
