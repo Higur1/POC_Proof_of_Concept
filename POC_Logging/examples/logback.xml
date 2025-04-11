@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<configuration>
+
+    <timestamp key="dateTimeFormat" datePattern="HH-mm"/> <!--one log per minute-->
+    <timestamp key="dateTimeFormat2" datePattern="MM"/><!-- one log per mouth-->
+    <!--example FirstLogger - LoggerLevels-->
+    <!--//appender definition - Initial appender
+    <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+            //%-5level align
+            //%logger{36} max character
+            <Pattern>%d{HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n</Pattern>
+        </encoder>
+    </appender>
+
+    //create logger - trace - debug - info - warn - error - off
+    //initial logger
+    <logger name="logging" level="trace" additivity="false">
+        //reference appender created
+        <appender-ref ref="CONSOLE" />
+    </logger>-->
+
+    <!--HierarchyLogger-->
+    <appender name="console1" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+            <Pattern>
+                [1] %d{HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n
+            </Pattern>
+        </encoder>
+    </appender>
+    <appender name="console2" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+            <Pattern>
+                [2] %d{HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n
+            </Pattern>
+        </encoder>
+    </appender>
+
+    <!--TargetAndColors -
+        target change the output log -
+        highlight changes the color of each level-->
+    <appender name="console3" class="ch.qos.logback.core.ConsoleAppender">
+        <target>System.out</target>
+        <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+            //It is possible to change the color of each output data
+            <Pattern>
+                %green(%d{HH:mm:ss}) [%t] %highlight(%-5level) %logger{36} - %boldWhite(%msg%n)
+            </Pattern>
+        </encoder>
+    </appender>
+
+    <appender name="file1" class="ch.qos.logback.core.FileAppender">
+        <file>POC_Logging/examples/logs/file1.log</file>
+        <!--<append>false</append>--> <!--generate new archive always run-->
+        <!--<immediateFlush>false</immediateFlush>--> <!--default true - if false generates temporary storage in memory -
+        else automatic log-->
+        <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+            <Pattern>
+                %d{HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n
+            </Pattern>
+        </encoder>
+    </appender>
+
+    <!--TimestampFileAppend-->
+    <appender name="file2" class="ch.qos.logback.core.FileAppender">
+        <file>POC_Logging/examples/logs/file2_${dateTimeFormat2}.log</file>
+        <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+            <Pattern>
+                %d{HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n
+            </Pattern>
+        </encoder>
+    </appender>
+
+    <!--RollingFileAppender--> <!--backup logs TimeBasedRollingPolicy-->
+    <appender name="rollingFile1" class="ch.qos.logback.core.FileAppender">
+        <file>POC_Logging/examples/logs/rollingFile1.log</file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>POC_Logging/examples/logs/rollingFile1.%d{yyyy-MM-dd}.log</fileNamePattern>
+          <!--  <fileNamePattern>POC_Logging/examples/logs/rollingFile1.%d{yyyy-MM-dd}.zip</fileNamePattern>--> <!--is possible generate a zip archive-->
+            <maxHistory>30</maxHistory>
+            <totalSizeCap>1GB</totalSizeCap>
+        </rollingPolicy>
+        <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+            <Pattern>
+                %d{HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n
+            </Pattern>
+        </encoder>
+    </appender>
+
+    <!--HierarchyLogger loggers-->
+    <logger name="x" level="warn">
+        <appender-ref ref="console1"/>
+    </logger>
+    <logger name="x.y" additivity="false">//without additivity = true - duplicate logs
+        <appender-ref ref="console2"/>
+    </logger>
+
+    <!--change all hierarchy levels - all logger inherit from root - RootLogger-->
+    <logger name="ROOT" level="INFO">
+        <appender-ref ref="console1"/>
+    </logger>
+
+    <!--RootLogger-->
+    <logger name="RootLogger">//additivity default is true
+    </logger>
+
+    <logger name="ParameterLogger" level="INFO">
+
+    </logger>
+
+    <logger name="DetectLogLevel" level="WARN">
+
+    </logger>
+    <!--TargetAndColors-->
+    <logger name="TargetAndColors" level="INFO" additivity="false">
+        <appender-ref ref="console3"/>
+    </logger>
+    <!--FileAppender-->
+    <logger name="FileAppender" level="DEBUG">
+        <appender-ref ref="file1"/>
+    </logger>
+    <!--TimestampFileAppender-->
+    <logger name="TimestampFileAppender" level="DEBUG">
+        <appender-ref ref="file2"/>
+    </logger>
+    <!--RollingFileAppender-->
+    <logger name="RollingFileAppender" level="DEBUG">
+        <appender-ref ref="file2"/>
+    </logger>
+
+</configuration>

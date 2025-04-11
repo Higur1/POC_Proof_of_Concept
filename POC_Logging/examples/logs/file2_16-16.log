@@ -1,0 +1,4 @@
+16:16:51 [main] DEBUG TimestampFileAppender - DEBUG()
+16:16:51 [main] INFO  TimestampFileAppender - INFO()
+16:16:51 [main] WARN  TimestampFileAppender - WARN()
+16:16:51 [main] ERROR TimestampFileAppender - ERROR()

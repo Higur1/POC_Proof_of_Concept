@@ -1,0 +1,8 @@
+16:06:29 [main] DEBUG FileAppender - DEBUG()
+16:06:29 [main] INFO  FileAppender - INFO()
+16:06:29 [main] WARN  FileAppender - WARN()
+16:06:29 [main] ERROR FileAppender - ERROR()
+16:06:56 [main] DEBUG FileAppender - DEBUG()
+16:06:56 [main] INFO  FileAppender - INFO()
+16:06:56 [main] WARN  FileAppender - WARN()
+16:06:56 [main] ERROR FileAppender - ERROR()

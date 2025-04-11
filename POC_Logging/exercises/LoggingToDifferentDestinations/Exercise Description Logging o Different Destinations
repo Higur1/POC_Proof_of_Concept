@@ -1,0 +1,5 @@
+Exercise:
+    Create two classes (ClassA and ClassB) with method called log(), which logs a samples message.
+    Requirements:
+        Message logged by the logger in ClassA should be printed to the console.
+        Message logged by the logger in ClassA should be written to a file.

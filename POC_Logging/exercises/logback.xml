@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<configuration>
+    <appender name="console1" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+            <Pattern>
+                %d{HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n
+            </Pattern>
+        </encoder>
+    </appender>
+
+    <appender name="file1" class="ch.qos.logback.core.FileAppender">
+        <file>POC_Logging/exercises/LoggingToDifferentDestinations/logs/file1.log</file>
+        <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+            <Pattern>
+                %d{HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n
+            </Pattern>
+        </encoder>
+    </appender>
+
+    <logger name="ClassA" level="INFO">
+        <appender-ref ref="console1"/>
+    </logger>
+    <logger name="ClassB" level="DEBUG">
+        <appender-ref ref="file1"/>
+    </logger>
+
+</configuration>
