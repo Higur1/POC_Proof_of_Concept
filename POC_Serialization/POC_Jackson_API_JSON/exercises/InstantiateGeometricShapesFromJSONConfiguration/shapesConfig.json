@@ -1,0 +1,21 @@
+[
+  {
+    "type": "SQUARE",
+    "properties": {
+      "size": 30
+    }
+  },
+  {
+    "type": "RECTANGLE",
+    "properties": {
+      "width": 60,
+      "height": 30
+    }
+  },
+  {
+    "type": "CIRCLE",
+    "properties": {
+      "radius": 60
+    }
+  }
+]

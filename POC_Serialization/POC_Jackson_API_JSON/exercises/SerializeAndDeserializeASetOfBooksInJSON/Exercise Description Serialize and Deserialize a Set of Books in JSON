@@ -1,0 +1,24 @@
+Exercise:
+    Create a program capable of serializing and deserializing the following JSON structure, which represents a collections of books:
+    {
+      "books": [
+        {
+          "isbn": "43243840983",
+          "title": "Java is awesome!",
+          "author": "Zé Programmer",
+          "num_pag": 354
+        },
+        {
+          "isbn": "9986748783",
+          "title": "Learn Java",
+          "author": "Pedro Paulo",
+          "num_pag": 545
+        },
+        {
+          "isbn": "587763767883",
+          "title": "Java For Beginners",
+          "author": "Rodrigo Junqueira",
+          "num_pag": 530
+        }
+      ]
+    }

@@ -1,0 +1,27 @@
+Exercise:
+    Create a program that instantiates 3 geometric figures:
+        1 square(Square),
+        1 rectangle(Rectangle), and
+        1 circle(Circle)
+    To create these shapes, you must use the configuration defined in  the file shapesConfig.json, which should follow the structure below:
+    [
+      {
+        "type": "SQUARE",
+        "properties": {
+          "size": 30
+        }
+      },
+      {
+        "type": "RECTANGLE",
+        "properties": {
+          "width": 60,
+          "height": 30
+        }
+      },
+      {
+        "type": "CIRCLE",
+        "properties": {
+          "radius": 60
+        }
+      }
+    ]
