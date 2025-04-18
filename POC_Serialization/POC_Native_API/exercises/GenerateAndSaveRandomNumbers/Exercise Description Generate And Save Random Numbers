@@ -1,0 +1,5 @@
+Exercise:
+    Create a program that generates a random number(Double) and saves it to a file named numbers.out
+    Every time the program runs, it should load the previously generated numbers, generate a new number, and save it to the file.
+    In other words, it updates the file with the new number.
+    Additionally, the program should display the full sequence of generated numbers on the screen each time it runs.
