@@ -1,0 +1,4 @@
+Exercise:
+    Write a method that converts an object into a String representation.
+    This method should display the class name, along with its attributes and their values.
+    The information should be retrieved using the Reflection API.

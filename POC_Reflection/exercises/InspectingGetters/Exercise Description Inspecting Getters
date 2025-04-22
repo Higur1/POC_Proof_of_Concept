@@ -1,0 +1,2 @@
+Exercise:
+    Write a program that finds all the getter methods of an object, calls them, and displays the returned values on the screen.
