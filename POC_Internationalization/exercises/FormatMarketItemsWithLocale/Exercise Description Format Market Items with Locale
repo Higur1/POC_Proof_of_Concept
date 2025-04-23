@@ -1,0 +1,4 @@
+Exercise:
+    Implement a method that receives a list of market items purchased by you and a Locale.
+    This method must build a table with the information of each item: name, price, and purchase date.
+    The table data must be formatted according to the Locale specified as a parameter to the method.
