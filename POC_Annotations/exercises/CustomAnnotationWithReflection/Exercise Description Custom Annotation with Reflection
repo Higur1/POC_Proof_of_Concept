@@ -1,0 +1,5 @@
+Exercise:
+    Create an annotation name @Transactional with the following requirement:
+        It can only be applied to constructors and methods
+        It mut be accessible during runtime using the Reflection API
+        It contains a boolean attribute name rollback, which defaults to false

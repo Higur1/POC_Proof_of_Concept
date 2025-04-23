@@ -1,0 +1,4 @@
+Exercise:
+    Create a @SecurityConfig annotation to exclusively annotate classes.
+    This annotation must have an allowed attribute, which represents 0 or more elements of @Group type.
+    The @Group annotation must have an associated access profile (String type)
