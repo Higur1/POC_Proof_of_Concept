@@ -1,0 +1,4 @@
+Exercise:
+    Create a Printer class to represent a printer and a method printDocument().
+    The printer is a singleton and can be shared across multiple threads.
+    Ensure that only one thread at a time can print a document(if another thread is printing, it must wait).

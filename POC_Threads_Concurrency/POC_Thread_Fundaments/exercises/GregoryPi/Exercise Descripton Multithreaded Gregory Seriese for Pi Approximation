@@ -1,0 +1,8 @@
+Exercise:
+    Write an algorithm using threads to approximate the value of π (pi) using the Gregory-Leibniz series:
+        π/4 =   ∞
+                ∑  (-1)n/2n+1
+               n=0
+
+    Use a thread to calculate a portion of the series. Each thread should store its result in a shared array (of type double)
+    After all threads complete, sum all values in the array and multiply the result by 4 to get the approximation of 

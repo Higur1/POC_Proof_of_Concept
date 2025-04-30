@@ -1,0 +1,5 @@
+Exercise:
+    Create a class called Appender that has a method append().
+    When called, the append() method must add a character to the end of a string, which starts empty(the character should be passed as a parameter).
+    Simulate multiple threads calling the append() method (this method must behave correctly in a multithreaded context).
+    When all threads finish, print the final string on the screen.

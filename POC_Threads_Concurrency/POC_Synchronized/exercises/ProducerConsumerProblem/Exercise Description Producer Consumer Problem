@@ -1,0 +1,13 @@
+Exercise:
+    Implements a multithreaded solution to the class Producer-Consumer Problem using a bounded queue shared between threads.
+        The Producer thread will continuously generate numbers and insert them into the shared queue.
+        The Consumer thread will continuously remove numbers from the queue for consumption.
+        The queue has a fixed maximum capacity T, representing the maximum numbers of elements it can hold.
+        The solution must use thread synchronization to avoid race conditions and ensure safe access to the queue.
+    Optimization requirements:
+        The Producer must monitor the queue's size. If the queue is near full capacity, it must wait until the Consumer has made room before adding more items.
+        The Consumer must also monitor the queue. If the queue is empty, it must wait until the Producer has added items before attempting to consume.
+    Task:
+        Create the shared bounded queue.
+        Implement synchronization using appropriate concurrency primitives
+        Ensure the Producer and Consumer efficiently coordinate with minimal busy waiting.
