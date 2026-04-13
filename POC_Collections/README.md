@@ -1,14 +1,51 @@
-# 📚POC_Collections
+# POC_Collections — Coleções em Java
 
-Este módulo faz parte do repositório [`POC_Proof_of_Concept`](https://github.com/Higur1/POC_Proof_of_Concept) e tem como objetivo demonstrar o uso das principais coleções da linguagem Java. Cada subpasta contém exemplos específicos, organizados por tipo de coleção.
+## Propósito
+
+Estudo das principais estruturas de dados da Java Collections Framework: arrays, listas, mapas e conjuntos. Cada tipo de coleção tem seu próprio submódulo com exemplos e exercícios.
+
+---
 
 ## Estrutura
 
-- `POC_Arrays`: Exemplos de manipulação de arrays em Java.
-- `POC_Lists`: Demonstrações com `ArrayList`, `LinkedList` e outras listas.
-- `POC_Maps`: Exemplos com `HashMap`, `TreeMap` e outras implementações de `Map`.
-- `POC_Sets`: Exemplos de uso de `HashSet`, `TreeSet` e outras variações de `Set`.
+```
+POC_Collections/
+├── POC_Arrays/
+│   ├── examples/
+│   └── exercises/  # BubbleSort, ItemPriceAnalysis, SquareTheElements
+├── POC_Lists/
+│   ├── examples/   # Comparable, Comparator
+│   └── exercises/  # RandomAndOrderedNumbers, RemoveInactiveEmployee
+├── POC_Maps/
+│   ├── examples/   # CustomClassMap
+│   └── exercises/  # CharCount, ConvertMap
+└── POC_Sets/
+    ├── examples/   # SetUseFail, SetsUse, TreeSetUse
+    └── exercises/  # DuplicationData, Rank
+```
 
-## Objetivo
+---
 
-Fornecer exemplos claros e didáticos sobre o uso das coleções em Java, com fins educacionais e para consulta prática.
+## Submódulos
+
+| Submódulo | Foco |
+|-----------|------|
+| `POC_Arrays` | Arrays primitivos e de objetos, algoritmos de ordenação |
+| `POC_Lists` | `ArrayList`, `LinkedList`, ordenação com `Comparable` e `Comparator` |
+| `POC_Maps` | `HashMap`, `LinkedHashMap`, `TreeMap` — chaves customizadas |
+| `POC_Sets` | `HashSet`, `TreeSet` — unicidade, `equals`/`hashCode` |
+
+---
+
+## Examples vs Exercises
+
+| | `examples/` | `exercises/` |
+|-|-------------|--------------|
+| **O quê** | Demonstração das APIs e contratos de cada coleção | Problemas que exigem escolha e uso correto da estrutura |
+| **Como usar** | Leitura sequencial por submódulo | Tentar implementar antes de consultar a solução |
+
+---
+
+## Como estudar
+
+Percorra os submódulos na ordem: Arrays → Lists → Maps → Sets. Cada um introduz conceitos que se apoiam nos anteriores.
